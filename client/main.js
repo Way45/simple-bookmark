@@ -6,3 +6,4 @@ import "./bookmark.html"
 import "../lib/collections.js";
 import "./bookmark_add.js";
 import "./bookmark_list.js";
+import "./bookmark.js";
