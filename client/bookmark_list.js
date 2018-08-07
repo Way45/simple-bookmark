@@ -1,4 +1,4 @@
-Template.body.helpers({
+Template.bookmarkList.helpers({
     bookmarks:function () {
         return Bookmarks.find();
     }

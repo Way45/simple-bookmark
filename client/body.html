@@ -3,20 +3,9 @@
     <header>
         <h1>在线书签</h1>
     </header>
-    {{>bookmarkAdd}}
-    <div class="area">
-        <h4>书签列表</h4>
-        <ul class="bmlist">
-            {{#each bookmarks}}
-                {{>bookmark}}
-            {{/each}}
-        </ul>
-    </div>
+    {{> bookmarkAdd}}
+    {{> bookmarkList}}
 
 </div>
-
 </body>
 
-<template name="bookmark">
-    <li><a href="{{url}}" target="_blank">{{name}}</a></li>
-</template>
