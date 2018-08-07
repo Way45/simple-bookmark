@@ -1,0 +1,10 @@
+<template name="bookmarkList">
+    <div class="area">
+        <h4>书签列表</h4>
+        <ul class="bmlist">
+            {{#each bookmarks}}
+                {{>bookmark}}
+            {{/each}}
+        </ul>
+    </div>
+</template>
