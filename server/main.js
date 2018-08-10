@@ -1,6 +1,6 @@
 import { Meteor } from 'meteor/meteor';
 import "../lib/collections.js";
-
+import "../lib/router.js";
 import "./seed.js"
 
 Meteor.startup(() => {

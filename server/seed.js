@@ -1,3 +1,5 @@
+
+
 if(Bookmarks.find().count()===0){
     Bookmarks.insert({
         name: "百度",
