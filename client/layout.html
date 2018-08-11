@@ -21,7 +21,7 @@
                                 <a href="/">HOME<span class="sr-only">(current)</span> </a>
                             </li>
                             <li><a href="/add">添加书签</a> </li>
-
+                            <li><a href="#">{{>loginButtons}}</a> </li>
                         </ul>
 
                     </div>
@@ -31,7 +31,11 @@
             </nav>
 
         </header>
-        {{> yield}}
+        {{#if currentUser}}
+            {{> yield}}
+        {{else}}
+            <div class="alert alert-warning" role="alert">欢迎使用在线书签，请登录/注册后使用</div>
+        {{/if}}
     </div>
 
 

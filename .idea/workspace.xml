@@ -2,16 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="da9d7b12-0c7d-4f3e-bb87-f2d8eeb078e1" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/meteor_packages_auto_import_browser.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/meteor_packages_auto_import_browser.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.meteor/packages" beforeDir="false" afterPath="$PROJECT_DIR$/.meteor/packages" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.meteor/versions" beforeDir="false" afterPath="$PROJECT_DIR$/.meteor/versions" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/body.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/body.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bookmark.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/bookmark.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bookmark.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/bookmark.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/bookmark_add.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/bookmark_add.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/bookmark_list.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/bookmark_list.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/layout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/router.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/seed.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/seed.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -52,8 +47,8 @@
           <file leaf-file-name="layout.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/client/layout.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="321">
-                  <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+                <state relative-caret-position="120">
+                  <caret line="20" column="91" lean-forward="true" selection-start-line="20" selection-start-column="91" selection-end-line="20" selection-end-column="91" />
                 </state>
               </provider>
             </entry>
@@ -97,8 +92,8 @@
           <file leaf-file-name="bookmark_add.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/client/bookmark_add.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="315">
-                  <caret line="21" selection-start-line="21" selection-end-line="21" />
+                <state relative-caret-position="150">
+                  <caret line="10" column="56" selection-start-line="10" selection-start-column="56" selection-end-line="10" selection-end-column="56" />
                 </state>
               </provider>
             </entry>
@@ -136,20 +131,29 @@
                   </provider>
                 </entry>
               </file>
-              <file leaf-file-name="router.js" pinned="false" current-in-tab="false">
+              <file leaf-file-name="router.js" pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/lib/router.js">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="210">
-                      <caret line="14" column="12" lean-forward="true" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+                    <state relative-caret-position="312">
+                      <caret line="24" selection-start-line="24" selection-start-column="3" selection-end-line="25" selection-end-column="25" />
                     </state>
                   </provider>
                 </entry>
               </file>
-              <file leaf-file-name="seed.js" pinned="false" current-in-tab="true">
+              <file leaf-file-name="seed.js" pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/server/seed.js">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state>
-                      <caret lean-forward="true" />
+                    <state relative-caret-position="101">
+                      <caret line="7" column="11" lean-forward="true" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file leaf-file-name="bookmark_list.js" pinned="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/client/bookmark_list.js">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="60">
+                      <caret line="4" column="58" selection-start-line="4" selection-start-column="58" selection-end-line="4" selection-end-column="58" />
                     </state>
                   </provider>
                 </entry>
@@ -210,19 +214,19 @@
         <option value="$PROJECT_DIR$/client/main.html" />
         <option value="$PROJECT_DIR$/client/bookmark_list.html" />
         <option value="$PROJECT_DIR$/client/body.js" />
-        <option value="$PROJECT_DIR$/client/bookmark_list.js" />
         <option value="$PROJECT_DIR$/client/bookmark_add.html" />
         <option value="$PROJECT_DIR$/client/body.html" />
         <option value="$PROJECT_DIR$/client/bookmark.html" />
-        <option value="$PROJECT_DIR$/client/bookmark_add.js" />
         <option value="$PROJECT_DIR$/client/main.js" />
         <option value="$PROJECT_DIR$/server/main.js" />
         <option value="$PROJECT_DIR$/client/bookmark_edit.html" />
         <option value="$PROJECT_DIR$/client/bookmark.js" />
         <option value="$PROJECT_DIR$/client/bookmark_edit.js" />
-        <option value="$PROJECT_DIR$/lib/router.js" />
+        <option value="$PROJECT_DIR$/client/bookmark_list.js" />
         <option value="$PROJECT_DIR$/server/seed.js" />
+        <option value="$PROJECT_DIR$/client/bookmark_add.js" />
         <option value="$PROJECT_DIR$/client/layout.html" />
+        <option value="$PROJECT_DIR$/lib/router.js" />
       </list>
     </option>
   </component>
@@ -329,24 +333,25 @@
       <workItem from="1533642659296" duration="4971000" />
       <workItem from="1533692875998" duration="6012000" />
       <workItem from="1533797611885" duration="4609000" />
-      <workItem from="1533864436823" duration="3642000" />
+      <workItem from="1533864436823" duration="4939000" />
+      <workItem from="1533884963538" duration="751000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23906000" />
+    <option name="totallyTimeSpent" value="25954000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1340" y="27" width="1141" height="996" extended-state="0" />
+    <frame x="1340" y="27" width="1141" height="996" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21121822" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21121822" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32965517" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.329718" />
-      <window_info id="npm" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Run" order="2" />
+      <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -595,13 +600,6 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/client/body.js" />
-    <entry file="file://$PROJECT_DIR$/client/bookmark_list.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="21" selection-start-column="21" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/body.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -668,13 +666,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/bookmark_add.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/collections.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -696,24 +687,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/router.js">
+    <entry file="file://$PROJECT_DIR$/client/bookmark_list.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="12" lean-forward="true" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+        <state relative-caret-position="60">
+          <caret line="4" column="58" selection-start-line="4" selection-start-column="58" selection-end-line="4" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/bookmark_add.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="56" selection-start-line="10" selection-start-column="56" selection-end-line="10" selection-end-column="56" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server/seed.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
+        <state relative-caret-position="101">
+          <caret line="7" column="11" lean-forward="true" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/router.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="24" selection-start-line="24" selection-start-column="3" selection-end-line="25" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/layout.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+        <state relative-caret-position="120">
+          <caret line="20" column="91" lean-forward="true" selection-start-line="20" selection-start-column="91" selection-end-line="20" selection-end-column="91" />
         </state>
       </provider>
     </entry>
