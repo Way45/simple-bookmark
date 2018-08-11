@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="da9d7b12-0c7d-4f3e-bb87-f2d8eeb078e1" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bookmark_add.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/bookmark_add.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bookmark_list.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/bookmark_list.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/layout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.meteor/packages" beforeDir="false" afterPath="$PROJECT_DIR$/.meteor/packages" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.meteor/versions" beforeDir="false" afterPath="$PROJECT_DIR$/.meteor/versions" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/router.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/seed.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/seed.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/main.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -32,11 +30,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+          <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/server/main.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="75">
-                  <caret line="8" selection-start-line="8" selection-end-line="8" />
+                <state relative-caret-position="135">
+                  <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
                   <folding>
                     <element signature="e#0#39#0" expanded="true" />
                   </folding>
@@ -44,11 +42,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="layout.html" pinned="false" current-in-tab="true">
+          <file leaf-file-name="layout.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/client/layout.html">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="120">
-                  <caret line="20" column="91" lean-forward="true" selection-start-line="20" selection-start-column="91" selection-end-line="20" selection-end-column="91" />
+                  <caret line="20" column="91" selection-start-line="20" selection-start-column="91" selection-end-line="20" selection-end-column="91" />
                 </state>
               </provider>
             </entry>
@@ -134,8 +132,17 @@
               <file leaf-file-name="router.js" pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/lib/router.js">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="312">
-                      <caret line="24" selection-start-line="24" selection-start-column="3" selection-end-line="25" selection-end-column="25" />
+                    <state relative-caret-position="252">
+                      <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file leaf-file-name="publication.js" pinned="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/server/publication.js">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="30">
+                      <caret line="2" column="2" lean-forward="true" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
                     </state>
                   </provider>
                 </entry>
@@ -143,7 +150,7 @@
               <file leaf-file-name="seed.js" pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/server/seed.js">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="101">
+                    <state relative-caret-position="105">
                       <caret line="7" column="11" lean-forward="true" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
                     </state>
                   </provider>
@@ -218,7 +225,6 @@
         <option value="$PROJECT_DIR$/client/body.html" />
         <option value="$PROJECT_DIR$/client/bookmark.html" />
         <option value="$PROJECT_DIR$/client/main.js" />
-        <option value="$PROJECT_DIR$/server/main.js" />
         <option value="$PROJECT_DIR$/client/bookmark_edit.html" />
         <option value="$PROJECT_DIR$/client/bookmark.js" />
         <option value="$PROJECT_DIR$/client/bookmark_edit.js" />
@@ -226,6 +232,8 @@
         <option value="$PROJECT_DIR$/server/seed.js" />
         <option value="$PROJECT_DIR$/client/bookmark_add.js" />
         <option value="$PROJECT_DIR$/client/layout.html" />
+        <option value="$PROJECT_DIR$/server/publication.js" />
+        <option value="$PROJECT_DIR$/server/main.js" />
         <option value="$PROJECT_DIR$/lib/router.js" />
       </list>
     </option>
@@ -266,7 +274,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -293,6 +300,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -335,14 +343,15 @@
       <workItem from="1533797611885" duration="4609000" />
       <workItem from="1533864436823" duration="4939000" />
       <workItem from="1533884963538" duration="751000" />
+      <workItem from="1533972872422" duration="527000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25954000" />
+    <option name="totallyTimeSpent" value="26481000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1340" y="27" width="1141" height="996" extended-state="1" />
+    <frame x="1340" y="27" width="1141" height="996" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21121822" />
@@ -382,13 +391,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/client/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="22" lean-forward="true" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -614,16 +616,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/main.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -703,22 +695,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/server/seed.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
+        <state relative-caret-position="105">
           <caret line="7" column="11" lean-forward="true" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/router.js">
+    <entry file="file://$PROJECT_DIR$/server/publication.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="24" selection-start-line="24" selection-start-column="3" selection-end-line="25" selection-end-column="25" />
+        <state relative-caret-position="30">
+          <caret line="2" column="2" lean-forward="true" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/layout.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="20" column="91" lean-forward="true" selection-start-line="20" selection-start-column="91" selection-end-line="20" selection-end-column="91" />
+          <caret line="20" column="91" selection-start-line="20" selection-start-column="91" selection-end-line="20" selection-end-column="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/router.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
         </state>
       </provider>
     </entry>
