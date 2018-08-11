@@ -4,18 +4,21 @@ Template.bookmarkAdd.events({
 
         //get current user's id
         var uid = Meteor.user()._id;
-
         var name = tpl.$('#bookmark_name').val();
         var url = tpl.$('#bookmark_url').val();
 
-        Bookmarks.insert({name: name, url: url,owner:uid},function (err) {
-                if (!err) {
-                    tpl.$('#bookmark_name').val('');
-                    tpl.$('#bookmark_url').val('');
+        console.log("0："+uid +"+"+name + "+"+url);
+        Meteor.call('bookmarkInsert', {name: name, url: url},
+            function (error) {
+                if (error) {
+                    return alert(error.reason);
+                    // return alert("wo cao jiuzaizhe!!!");
 
-                    Router.go('/');
                 }
+                tpl.$('#bookmark_name').val('');
+                tpl.$('#bookmark_url').val('');
 
+                Router.go('/');
             });
     }
 
